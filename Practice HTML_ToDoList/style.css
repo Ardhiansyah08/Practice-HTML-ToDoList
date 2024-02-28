@@ -1,0 +1,104 @@
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    margin: 30px;
+}
+
+.todo-wrapper {
+    margin-top: 50px;
+    margin-left: auto;
+    margin-right: auto;
+    padding: 30px;
+    border-radius: 20px;
+    background-color: blue;
+    font-weight: 100;
+    text-align: center;
+}
+
+.todo-wrapper h1 {
+    color: white;
+    text-align: center;
+}
+
+.todo-wrapper p {
+    color: wheat;
+    text-align: center;
+}
+
+.todo-wrapper form {
+    padding: 10px;
+    display: inline;
+}
+
+.todo-wrapper input {
+    padding: 3px 50px;
+    border-radius: 8px;
+    text-align: center;
+}
+
+.todo-wrapper #Add-Button {
+    padding: 5px 20px;
+    margin: 5px;
+    background-color: #FFB000;
+    border-radius: 15px;
+    font-weight: bold;
+}
+
+.todo-wrapper #Add-Button:hover {
+    color: white;
+    cursor: pointer;
+}
+
+.todo-wrapper ol {
+    margin: 3% ;
+    color: white;
+}
+
+.todo-wrapper ol li {
+    text-align:left;
+    margin: 1% 2%;
+    padding: 5px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    -webkit-transition: all 0.5s ease-out;
+    transition: all 0.5s ease-out;
+}
+
+.todo-wrapper .completed {
+    text-decoration: line-through;
+    color: black;
+}
+
+#Action-Wrapper {
+    text-align: center;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    padding: 1% 5%;
+}
+
+.todo-wrapper .Control-Button {
+    border-radius: 15px;
+    padding: 5px 10px;
+    font-weight: bold;
+    border: none;
+}
+
+.todo-wrapper .Control-Button:hover {
+    color: wheat;
+    cursor: pointer;
+}
+.todo-wrapper #Clear-Button {
+    background-color: #98ABEE;
+}
+#Empty-Button {
+    text-aligin: center;
+    background-color: #B80000;
+}
+
+#Save-Button {
+    text-aligin: center;
+    background-color: #367E18;
+}
+

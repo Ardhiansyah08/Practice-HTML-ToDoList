@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <title>To Do List</title>
+</head>
+<body>
+    <div class="todo-wrapper">
+        <h1> My To-Do List </h1>
+        <p>Make Your To-Do List and Please Click Add for Making Your Schedule</p>
+            <form>
+                <input id="Entry-Box" type="text" placeholder="Input Your Shcedule">
+            </form>
+            <button id="Add-Button"> Add </button>
+            <br/>
+            <ol id="ToDoList"></ol>
+        <div id="Action-Wrapper">
+            <button class="Control-Button" id="Clear-Button" onclick="clearCompletedToDoItem()"> Clear Completed </button>
+            <button class="Control-Button" id="Empty-Button" onclick="emptyList()"> Empty List </button>
+            <button class="Control-Button" id="Save-Button" onclick="saveList()"> Save List </button>
+        </div>
+    </div> 
+
+<script src="script.js"></script>
+</body>
+</html>
